@@ -7,6 +7,7 @@
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/avaliacao">Avaliações</RouterLink>
         <RouterLink to="/ranking">Ranking</RouterLink>
+        <RouterLink to="/adicionar">Entrar na Competição</RouterLink>
       </nav>
     </div>
   </header>

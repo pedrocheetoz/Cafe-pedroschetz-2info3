@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import AvaliacaoView from '@/views/AvaliacaoView.vue'
 import RankingView from '@/views/RankingView.vue'
+import AdicionarView from '@/views/AdicionarView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -18,10 +19,15 @@ const router = createRouter({
     },
     {
       path: '/ranking',
-      name:'avaliacao',
+      name:'ranking',
       component: RankingView,
+    },
+    {
+      path: '/adicionar',
+      name: 'adicionar',
+      component: AdicionarView
     }
-  ],  
+  ],
 })
 
 export default router
